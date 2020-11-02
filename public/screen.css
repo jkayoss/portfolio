@@ -1,0 +1,21 @@
+@media (max-width: 460px) {
+    main .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main .hello {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    main p {
+        text-align: center;
+    }
+
+    main .social {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+}
