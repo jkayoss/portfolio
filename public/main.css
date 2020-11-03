@@ -57,6 +57,7 @@ main a {
 main .grid {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    align-items: center;
 }
 
 main .hello {
@@ -85,6 +86,10 @@ main h1 {
 
 main p {
     text-align: left;
+}
+
+main .me {
+    padding: 15px;
 }
 
 main .social {
@@ -116,6 +121,57 @@ main .social i {
 
 #projetos .container .cards .card {
     background-color: white;
-    height: 200px;
+    min-height: 200px;
     border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+#projetos .cardcontent {
+    padding: 10px 15px 15px 15px;
+}
+
+#projetos .container .cards .card .projectimage img {
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    border-radius: 20px 20px 10px 10px;
+    transition: 200ms;
+}
+
+#projetos .container .cards .card .projectimage img:hover {
+    opacity: 0.8;
+}
+
+#projetos .container .cards .card h5,
+#projetos .container .cards .card p {
+    margin-bottom: 10px;
+}
+
+#projetos .projectbutton {
+    position: relative;
+    bottom: 0px;
+}
+
+#projetos .container .cards .card button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background-color: white;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#projetos .container .cards .card button:hover {
+    background-color: black;
+    color: white;
+}
+
+#projetos .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
 }
