@@ -1,6 +1,6 @@
-@media (max-width: 460px) {
+@media (max-width: 768px) {
+
     main .grid {
-        display: grid;
         grid-template-columns: 1fr;
     }
 
@@ -18,4 +18,15 @@
         justify-content: center;
         margin-bottom: 15px;
     }
+
+    #projetos .container .cards {
+        grid-template-columns: 1fr 1fr; 
+    }
 }
+
+@media (max-width: 500px) {
+    #projetos .container .cards  {
+        grid-template-columns: 1fr;
+    }
+}
+
