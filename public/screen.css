@@ -24,9 +24,25 @@
     }
 }
 
+@media (max-width: 660px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .container .like h4{
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
     #projetos .container .cards  {
         grid-template-columns: 1fr;
+    }
+
+    #projetos .container .cards .card .projectimage img {
+        
+        height: 35vh;
+        
     }
 }
 

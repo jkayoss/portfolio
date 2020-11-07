@@ -105,7 +105,7 @@ main .social i {
 #projetos .container {
     max-width: 900px;
     margin: 10px auto 0 auto;
-    padding: 20px;
+    padding: 30px 20px 40px 20px;
 }
 
 #projetos .container h3 {
@@ -130,10 +130,14 @@ main .social i {
     padding: 10px 15px 15px 15px;
 }
 
+#projetos .cardcontent p {
+    text-align: justify;
+}
+
 #projetos .container .cards .card .projectimage img {
     width: 100%;
     object-fit: cover;
-    height: 25vh;
+    height: 30vh;
     border-radius: 20px 20px 10px 10px;
     transition: 200ms;
 }
@@ -145,11 +149,6 @@ main .social i {
 #projetos .container .cards .card h5,
 #projetos .container .cards .card p {
     margin-bottom: 10px;
-}
-
-#projetos .projectbutton {
-    position: relative;
-    bottom: 0px;
 }
 
 #projetos .container .cards .card button {
@@ -175,3 +174,81 @@ main .social i {
     justify-content: space-between;
     height: 150px;
 }
+
+#skills {
+    background-color: white;
+}
+
+#skills .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 55px 0 40px 0;
+    text-align: center;
+}
+
+#skills .container .skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 20px 0!important
+}
+
+#skills .container .skills img {
+    max-height: 90px;
+    max-width: 90px;
+    padding: 20px;
+}
+
+#skills .container .jsicon {
+    max-width: 70px!important;
+}
+
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+footer .container div {
+    padding: 0 30px;
+}
+
+footer .container .like {
+    margin-bottom: 30px;
+}
+
+footer .container .like h4{
+    margin-top: 15px;
+}
+
+footer .container .contato a {
+    display: inline-block;
+    margin: 5px 20px 0 0;
+}
+
+footer .container .contato p {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+footer .container .contato p i{
+    margin-right: 10px;
+    
+}
+
