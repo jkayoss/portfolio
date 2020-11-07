@@ -37,24 +37,31 @@
 @media (max-width: 500px) {
     #projetos .container .cards  {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 15px;
+    }
+
+    #projetos .container .cards .card button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        float: right;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     #projetos .container {
         max-width: 900px;
         margin: 10px auto 0 auto;
-        padding: 30px 0px 20px 0px;
+        padding: 30px 10px 20px 10px;
     }
 
     #projetos .container .cards .card,
     #projetos .container .cards .card .projectimage img {
-        border-radius: 0px;
+        border-radius: 15px;
     }
 
-    #projetos .container .cards .card .projectimage img {
-        
-        height: 35vh;
-        
+    #projetos .container .cards .card .projectimage img {    
+        height: 35vh;   
     }
 }
 
