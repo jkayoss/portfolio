@@ -169,7 +169,7 @@ main .social i {
     object-fit: cover;
     height: 42vh;
     border-radius: 20px 20px 10px 10px;
-    transition: 200ms;
+    transition: opacity 300ms ease-in-out;
 }
 
 #projetos .container .cards .card .projectimage img:hover {
@@ -228,14 +228,11 @@ main .social i {
     max-height: 90px;
     max-width: 90px;
     padding: 20px;
-    margin: 5px 5px 5px 5px;
-    transition: 200ms;
+    transition: opacity 200ms ease-in;
 }
 
 #skills .container .skills img:hover {
-    opacity: 0.8;
-    max-width: 95px;
-    max-height: 95px;
+    opacity: 0.7;
     margin: 0;
 }
 
