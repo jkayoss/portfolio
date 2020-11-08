@@ -92,6 +92,35 @@ main .me {
     padding: 15px;
 }
 
+.up {
+    animation-name: up;
+    animation-duration: 4000ms;
+    animation-fill-mode: backwards;
+}
+
+main .me h3 {
+    
+    animation-delay: 50ms;
+} main .me h1 {
+    
+    animation-delay: 400ms;
+} main .me p {
+    
+    animation-delay: 850ms;
+}
+
+@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 main .social {
     display: flex;
     flex-direction: column;
@@ -115,7 +144,7 @@ main .social i {
 
 #projetos .container .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 20px;
     padding: 7px 0;
 }
@@ -138,7 +167,7 @@ main .social i {
 #projetos .container .cards .card .projectimage img {
     width: 100%;
     object-fit: cover;
-    height: 30vh;
+    height: 42vh;
     border-radius: 20px 20px 10px 10px;
     transition: 200ms;
 }
@@ -199,6 +228,15 @@ main .social i {
     max-height: 90px;
     max-width: 90px;
     padding: 20px;
+    margin: 5px 5px 5px 5px;
+    transition: 200ms;
+}
+
+#skills .container .skills img:hover {
+    opacity: 0.8;
+    max-width: 95px;
+    max-height: 95px;
+    margin: 0;
 }
 
 #skills .container .jsicon {
