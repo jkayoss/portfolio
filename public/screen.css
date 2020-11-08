@@ -22,6 +22,10 @@
     #projetos .container .cards {
         grid-template-columns: 1fr 1fr; 
     }
+
+    #projetos .container .cards .card .projectimage img {
+        height: 220px;
+    }
 }
 
 @media (max-width: 660px) {

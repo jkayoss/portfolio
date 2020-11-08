@@ -167,7 +167,8 @@ main .social i {
 #projetos .container .cards .card .projectimage img {
     width: 100%;
     object-fit: cover;
-    height: 42vh;
+    object-position: 50% 0;
+    height: 280px;
     border-radius: 20px 20px 10px 10px;
     transition: opacity 300ms ease-in-out;
 }
