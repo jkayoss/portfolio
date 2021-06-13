@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content {
+    width: 100%;
+    background-color: #000814;
+}
+
+.grid {
+    
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.content nav {
+    height: 80px;
+}
+
+.content nav img {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.content header {
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 1080px) {
+    .container {
+        padding: 0px 20px;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+nav .container img {
+    filter: invert();
+    grid-column: 1 / 2;
+}
+
+nav .container .menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    grid-column: 8;
+    color: white;
+}
+
+header .container {
+    height: calc(100vh - 80px);  
+}
+
+header .container main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-column: 6 / 8;
+}
+
+header .container .about {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header .container .about p {
+    line-height: 3;
+}
+
+.card {
+    background-color: #FFD60A;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card form {
+    padding: 8px 0 2px 0;
+}
+
+.card form > input, textarea {
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card form input:focus,
+.card form textarea:focus {
+    padding: 3px 8px;
+    margin-bottom: 4px;
+    border: 2px solid grey;
+}
+.card button {
+    padding: 10px;
+    background-color: #003566;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
